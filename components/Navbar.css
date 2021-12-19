@@ -1,0 +1,67 @@
+.homeBtn {
+    position: absolute;
+}
+.navTitleCont {
+    text-align: center;
+    margin: 16px 0;
+}
+.navTitle {
+    font-family: 'Prata', serif;
+    color: #00000033;
+    font-size: 32px;
+    letter-spacing: 16px;
+    padding-left: 16px;
+    margin: 20px auto;
+}
+.mainNavList {
+    text-align: center;
+}
+.mainNavLinks {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Prata', serif;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 8px;
+    padding-left: 8px;
+    margin: 0 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.mainNavLinks:hover{
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* elegant hover css */
+.elegant-hover-main li {
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    transition:  transform 0.5s cubic-bezier(.17,.67,.83,.67), letter-spacing 0.3s linear, opacity 0.3s;
+  }
+  
+  .elegant-hover-main li:after, .elegant-hover-main li:before {
+     content:"";
+    position: absolute;
+    width: calc(100%);
+    height: 0.5px;
+    background: rgb(255, 255, 255);
+    left: 0;
+     transform: scaleX(0);
+      transition: 0.3s;
+  }
+  
+  .elegant-hover-main li:after {
+    top: -6px;
+    transform-origin: right;
+  }
+  
+  .elegant-hover-main li:before {
+    bottom: 0px;
+    transform-origin: left;
+  }
+  
+  .elegant-hover-main li:hover::before, .elegant-hover-main li:hover::after  {
+    transform: scaleX(1);
+  }
