@@ -20,13 +20,13 @@ export default function Home() {
         <label className='homeTitle'>SHANICA</label>
         <label className='nameBesideCard'>SHANICA</label>
         <div className='homeSocialIcons'>
-              <a className='socialIconsCont' href='https://www.youtube.com/user/shanica1' target="_blank">
+              <a className='socialIconsCont' href='https://www.youtube.com/user/shanica1' target="_blank" rel="noreferrer">
                 <Icon className="socialIcons" icon="akar-icons:youtube-fill" color="rgba(0, 0, 0, 0.2)" height="30" />
               </a>
-              <a className='socialIconsCont' href='https://www.instagram.com/its.shanica/' target="_blank">
+              <a className='socialIconsCont' href='https://www.instagram.com/its.shanica/' target="_blank" rel="noreferrer">
                 <Icon className="socialIcons" icon="akar-icons:instagram-fill" color="rgba(0, 0, 0, 0.2)" height="25" />
               </a>
-              <a className='socialIconsCont' href='https://www.facebook.com/acinahs99' target="_blank">
+              <a className='socialIconsCont' href='https://www.facebook.com/acinahs99' target="_blank" rel="noreferrer">
                 <Icon className="socialIcons" icon="akar-icons:facebook-fill" color="rgba(0, 0, 0, 0.2)" width="25" />
               </a>
           </div>
