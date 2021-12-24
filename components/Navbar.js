@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
       <nav className='mainNav'>
         <div className='navTitleCont'>
-            <a href="/" className='navTitle'>SHANICA</a>
+            <Link href="/" className='navTitle'>SHANICA</Link>
         </div>
         <div className='mainNavListCont'>
             <ul className='mainNavList elegant-hover-main'>
