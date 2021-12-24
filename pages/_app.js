@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './index.css'
 import './Navbar.css'
 import './about.css'
-import './aboutArticles.css'
+import './AboutArticles.css'
 import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {
