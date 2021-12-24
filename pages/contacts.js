@@ -7,7 +7,12 @@ import Navbar from '../components/Navbar'
 export default function Contacts() {
     return (
       <div className='contactsContainer'>
-          <Navbar/>
+        <Head>
+          <title>Contacts</title>
+          <meta name="description" content="Hi! This is Shanica Cabading and welcome to my Contacts Page."/>
+          <link rel="icon" href="/shanLogo.png" />
+        </Head>
+        <Navbar/>
   
       </div>
     )

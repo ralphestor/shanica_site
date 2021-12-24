@@ -7,8 +7,8 @@ export default function Navbar() {
         <div className='navTitleCont'>
             <a href="/" className='navTitle'>SHANICA</a>
         </div>
-        <div>
-        <ul className='mainNavList elegant-hover-main'>
+        <div className='mainNavListCont'>
+            <ul className='mainNavList elegant-hover-main'>
               <li>
                   <Link href="/">
                     <a className='mainNavLinks'>HOME</a>
@@ -20,7 +20,7 @@ export default function Navbar() {
                   </Link>
               </li>
               <li>
-                  <Link href="/about">
+                  <Link href="/gallery">
                     <a className='mainNavLinks'>GALLERY</a>
                   </Link>
               </li>
@@ -35,7 +35,7 @@ export default function Navbar() {
                   </Link>
               </li>
             </ul>
-        </div>   
+        </div>
       </nav>
     )
 }

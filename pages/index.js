@@ -1,11 +1,16 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
+import HomeImage from '../components/HomeImage'
 import { Icon } from '@iconify/react'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
     <div className='homeContainer'>
+      <div className="homeNavbar">
+        <Navbar/>
+      </div>
+
       <Head>
         <title>Shanica Cabading</title>
         <meta name="description" content="Hi! This is Shanica Cabading and welcome to my website." />
@@ -13,16 +18,20 @@ export default function Home() {
       </Head>
       <main>
         <label className='homeTitle'>SHANICA</label>
-        <div className='flexContainer'>
-          <div className='homeImg'>
-            <Image
-              src="/../public/shanHome.png"
-              alt="Shanica Cabading"
-              width={530.4}
-              height={631}
-            />
+        <label className='nameBesideCard'>SHANICA</label>
+        <div className='homeSocialIcons'>
+              <a className='socialIconsCont' href='https://www.youtube.com/user/shanica1' target="_blank">
+                <Icon className="socialIcons" icon="akar-icons:youtube-fill" color="rgba(0, 0, 0, 0.2)" height="30" />
+              </a>
+              <a className='socialIconsCont' href='https://www.instagram.com/its.shanica/' target="_blank">
+                <Icon className="socialIcons" icon="akar-icons:instagram-fill" color="rgba(0, 0, 0, 0.2)" height="25" />
+              </a>
+              <a className='socialIconsCont' href='https://www.facebook.com/acinahs99' target="_blank">
+                <Icon className="socialIcons" icon="akar-icons:facebook-fill" color="rgba(0, 0, 0, 0.2)" width="25" />
+              </a>
           </div>
-
+        <div className='flexContainer'>
+          <HomeImage/>
           <nav className='homeNav'>
             <ul className='navList elegant-hover'>
               <li>
@@ -46,17 +55,6 @@ export default function Home() {
                   </Link>
               </li>
             </ul>
-            <div className='homeSocialIcons'>
-              <a href='https://www.youtube.com/user/shanica1' target="_blank">
-                <Icon className="socialIcons" icon="akar-icons:youtube-fill" color="rgba(0, 0, 0, 0.3)" height="50" />
-              </a>
-              <a href='https://www.instagram.com/its.shanica/' target="_blank">
-                <Icon className="socialIcons" icon="akar-icons:instagram-fill" color="rgba(0, 0, 0, 0.3)" height="40" />
-              </a>
-              <a href='https://www.facebook.com/acinahs99' target="_blank">
-                <Icon className="socialIcons" icon="akar-icons:facebook-fill" color="rgba(0, 0, 0, 0.3)" width="38" />
-              </a>
-            </div>
           </nav>
         </div>
       </main>

@@ -1,3 +1,9 @@
+.mainNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 .homeBtn {
     position: absolute;
 }
@@ -11,7 +17,6 @@
     font-size: 32px;
     letter-spacing: 16px;
     padding-left: 16px;
-    margin: 20px auto;
 }
 .mainNavList {
     text-align: center;
@@ -65,3 +70,24 @@
   .elegant-hover-main li:hover::before, .elegant-hover-main li:hover::after  {
     transform: scaleX(1);
   }
+
+
+@media only screen and (max-width: 768px) {
+  .mainNav {
+    /* border: 2px solid red; */
+  }
+  .navTitle {
+    font-size: 20px;
+    letter-spacing: 10px;
+    padding-left: 10px;
+  }
+  .mainNavListCont {
+    display: none;
+  }
+  .navTitleCont {
+    display: inline-block;
+    text-align: left;
+    margin: 16px 0;
+  }
+}
+

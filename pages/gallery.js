@@ -7,7 +7,12 @@ import Navbar from '../components/Navbar'
 export default function Gallery() {
     return (
       <div className='galleryContainer'>
-          <Navbar/>
+        <Head>
+          <title>Gallery</title>
+          <meta name="description" content="Hi! This is Shanica Cabading and welcome to my Gallery."/>
+          <link rel="icon" href="/shanLogo.png" />
+        </Head>
+        <Navbar/>
   
       </div>
     )

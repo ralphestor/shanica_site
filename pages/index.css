@@ -6,15 +6,16 @@
 }
 
 .homeTitle {
+    z-index: 1;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -180%);
+    transform: translate(-50%, -190%);
     font-family: 'Prata', serif;
     color: rgba(0, 0, 0, 0.2);
-    font-size: 120px;
-    letter-spacing: 60px;
-    padding-left: 60px;
+    font-size: 110px;
+    letter-spacing: 55px;
+    padding-left: 55px;
     -webkit-touch-callout: none;
     -webkit-user-select: none; 
     -khtml-user-select: none; 
@@ -23,17 +24,52 @@
     user-select: none;
 }
 
+.nameBesideCard {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-family: 'Prata', serif;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    letter-spacing: 15px;
+    padding-left: 15px;
+    transform: rotateZ(270deg) translate(-20%, -1100%);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.homeNavbar{
+    display: none;
+}
+
 .flexContainer {
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 400px 400px;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-.homeImg {
-    width: 350px;
+.homeCardCont {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    background-color: #c7ba98;
     justify-self: end;
+}
+.unset-img {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    width: 260px;
+    height: 360px;
 }
 
 .homeNav {
@@ -99,16 +135,154 @@
 
   /* social icons */
   .homeSocialIcons {
-      margin-left: 10px;
-      display: flex;
-      align-items: center;
-      gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(32%, 320%);
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
-
-
-.socialIcons {
+.socialIconsCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7ba98;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
-.socialIcons:hover {
+
+.socialIconsCont:hover {
+    box-shadow: 0px 0px 8px 2px #0000002d;
     transform: scale(1.3);
+}
+
+
+
+
+
+
+
+/* max-height */
+@media only screen and (max-height: 600px) {
+    .homeContainer {
+        height: 600px;
+    }
+    .homeTitle {
+        top: 300px;
+        font-size: 110px;
+        letter-spacing: 55px;
+        padding-left: 55px;
+    }
+    .nameBesideCard {
+        left: 50%;
+        top: 300px;
+        transform: rotateZ(270deg) translate(-20%, -1100%);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none; 
+        -khtml-user-select: none; 
+        -moz-user-select: none; 
+        -ms-user-select: none; 
+        user-select: none;
+    }
+    .flexContainer {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        align-items: flex-start;
+        height: 100vh;
+    }
+    .navList {
+        margin-top: 300px;
+        transform: translateY(-60%);
+    }
+    .homeCardCont {
+        margin-top: 300px;
+        transform: translateY(-50%);
+    }
+    .unset-img {
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        width: 260px;
+        height: 360px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .homeTitle {
+        font-size: 80px;
+        letter-spacing: 40px;
+        padding-left: 40px;
+        transform: translate(-50%, -220%);
+    }
+    .navList li{
+        margin: 15px 0;
+    }
+    .homeNavLinks{
+        font-size: 26px;
+        letter-spacing: 13px;
+    }
+    .flexContainer {
+        grid-template-columns: 350px 350px;
+    }
+    .homeCardCont {
+        width: 260px;
+        height: 350px;
+    }
+    .unset-img {
+        width: 230px;
+        height: 320px; 
+    }
+    .nameBesideCard {
+        font-size: 20px;
+        letter-spacing: 10px;
+        padding-left: 10px;
+        transform: rotateZ(270deg) translate(-40%, -1320%);
+    }
+    .homeSocialIcons {
+        transform: translate(32%, 270%);
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .flexContainer {
+        display: flex;
+        grid-template-columns: none;
+    }
+    .nameBesideCard {
+        display: none;
+    }
+    .homeTitle {
+        display: none;
+    }
+    .homeNav {
+        display: none;
+    }
+    .homeNavbar{
+        display: block;
+    }
+    
+    .homeSocialIcons {
+        top: 50%;
+        transform: translate(-50%, 480%);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+
+}
+
+/* max-height */
+@media only screen and (max-height: 600px) {
+    .homeSocialIcons {
+        top: 300px;
+    }
 }
