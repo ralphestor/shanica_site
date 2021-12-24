@@ -1,9 +1,9 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css'
-import '../components/Navbar.css'
+import './Navbar.css'
 import './about.css'
-import '../components/aboutArticles.css'
+import './aboutArticles.css'
 import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {
