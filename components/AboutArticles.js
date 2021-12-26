@@ -9,7 +9,7 @@ export default function AboutArticles() {
           <article className='aboutArticle'>
             <div className='aboutImage'>
               <Image
-                  src='/../public/shan1.jpg'
+                  src='/shan1.jpg'
                   alt="Shanica Cabading"
                   layout='fill'
                   objectFit='cover'
@@ -25,7 +25,7 @@ export default function AboutArticles() {
           <article className='aboutArticle'>
             <div className='aboutImage revImage'>
               <Image
-                    src='/../public/shan1.jpg'
+                    src='/shan1.jpg'
                     alt="Shanica Cabading"
                     layout='fill'
                     objectFit='cover'
@@ -41,7 +41,7 @@ export default function AboutArticles() {
           <article className='aboutArticle'>
             <div className='aboutImage'>
               <Image
-                    src='/../public/shan1.jpg'
+                    src='/shan1.jpg'
                     alt="Shanica Cabading"
                     layout='fill'
                     objectFit='cover'

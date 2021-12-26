@@ -8,7 +8,7 @@ export default function HomeImage() {
         <figure className='homeCardCont'>
             <div className='unset-img'>
             <Image
-                src="/../public/shanHome.png"
+                src="/shanHome.png"
                 alt="Shanica Cabading"
                 width={260}
                 height={360}
