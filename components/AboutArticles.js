@@ -6,7 +6,7 @@ import { Icon } from '@iconify/react'
 export default function AboutArticles() {
     return (
       <main className='aboutArticlesCont'>
-          {/* <article className='aboutArticle'>
+          <article className='aboutArticle'>
             <div className='aboutImage'>
               <Image
                   src='/../public/shan1.jpg'
@@ -53,7 +53,7 @@ export default function AboutArticles() {
               <label className='aboutTitle'>Lifestyle</label>
               <p className='aboutPar'>Reprehenderit sit consequat laboris laborum eu ipsum fugiat nostrud ea dolore ut pariatur eu. Ut ipsum ad fugiat reprehenderit eu tempor dolore excepteur reprehenderit consequat ea mollit nostrud duis. Non eu et minim consequat aute. Cupidatat voluptate culpa nisi ex consectetur eiusmod consequat enim elit consequat sit. Deserunt labore amet cupidatat eu et ipsum nulla. Irure ut laboris nisi labore duis velit fugiat enim dolore.</p>
             </div>
-          </article> */}
+          </article>
       </main>
     )
 }
