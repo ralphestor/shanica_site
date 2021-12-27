@@ -4,6 +4,7 @@ import './Navbar.css'
 import './about.css'
 import './AboutArticles.css'
 import './HomeImage.css'
+import './BurgerMenu.css'
 
 function MyApp({ Component, pageProps }) {
   return (

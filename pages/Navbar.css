@@ -37,6 +37,10 @@
     text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
+.mobileNav {
+  display: none;
+}
+
 /* elegant hover css */
 .elegant-hover-main li {
     text-transform: uppercase;
@@ -71,16 +75,28 @@
     transform: scaleX(1);
   }
 
-
-@media only screen and (max-width: 768px) {
-  .mainNav {
-    /* border: 2px solid red; */
-  }
+@media only screen and (max-width: 1024px) {
   .navTitle {
     font-size: 20px;
     letter-spacing: 10px;
     padding-left: 10px;
   }
+  .mainNavLinks {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+    letter-spacing: 7px;
+    padding: 10px 0px 2px 7px;
+    margin: 0 15px;
+    transition: all 0.3s ease-in-out;
+}
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .mobileNav {
+    display: block;
+  }
+
   .mainNavListCont {
     display: none;
   }

@@ -1,9 +1,13 @@
 import Link from 'next/link'
 import { Icon } from '@iconify/react'
+import BurgerMenu from './BurgerMenu'
 
 export default function Navbar() {
     return (
       <nav className='mainNav'>
+        <div className='mobileNav'>
+          <BurgerMenu/>
+        </div>
         <div className='navTitleCont'>
             <Link href="/" passHref>
               <a className='navTitle'>SHANICA</a>
