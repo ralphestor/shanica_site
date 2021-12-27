@@ -94,9 +94,15 @@
         order: 1;
         transform: none;
     }
-    
     .revImage {
         order: -1;
+    }
+    .aboutImage {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        justify-self: center;
+        align-self: center;
     }
 }
 
