@@ -4,12 +4,18 @@ import { Icon } from '@iconify/react'
 
 
 export default function AboutArticles() {
+  const aboutImages = [
+    '/shan1.jpg',
+    '/shan2.jpg',
+    '/shan3.jpg'
+  ]
+
     return (
       <main className='aboutArticlesCont'>
           <article className='aboutArticle'>
             <div className='aboutImage'>
               <Image
-                  src='/shan1.jpg'
+                  src={aboutImages[0]}
                   alt="Shanica Cabading"
                   layout='fill'
                   objectFit='cover'
@@ -25,7 +31,7 @@ export default function AboutArticles() {
           <article className='aboutArticle'>
             <div className='aboutImage revImage'>
               <Image
-                    src='/shan1.jpg'
+                    src={aboutImages[1]}
                     alt="Shanica Cabading"
                     layout='fill'
                     objectFit='cover'
@@ -41,7 +47,7 @@ export default function AboutArticles() {
           <article className='aboutArticle'>
             <div className='aboutImage'>
               <Image
-                    src='/shan1.jpg'
+                    src={aboutImages[2]}
                     alt="Shanica Cabading"
                     layout='fill'
                     objectFit='cover'
