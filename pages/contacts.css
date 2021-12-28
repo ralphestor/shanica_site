@@ -8,16 +8,17 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    margin: 0 40px;
 }
 .contactLbl {
     width: 80%;
-    max-width: 600px;
+    max-width: 700px;
     margin: 20px auto;
     font-family: 'Prata', serif;
     text-align: center;
     color: rgba(0, 0, 0, 0.2);
     font-size: 1.5rem;
-    letter-spacing: 8px;
+    letter-spacing: 12px;
     text-transform: uppercase;
 }
 .contactIconsCont {
@@ -34,3 +35,10 @@
     transform: scale(1.2);
 }
 
+@media only screen and (max-width: 768px) {
+    .contactLbl {
+        font-size: 1rem;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+}
