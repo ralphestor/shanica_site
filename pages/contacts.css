@@ -1,0 +1,36 @@
+.contactCont {
+    margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+}
+.allContactIcons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.contactLbl {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Prata', serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.contactIconsCont {
+    height: 140px;
+    width: 140px;
+    border-radius: 30px;
+    border: none;
+    background-color: #e4d3aa;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactIconsCont:hover {
+    box-shadow: 0px 0px 8px 2px #0000002d;
+    transform: scale(1.2);
+}
+
