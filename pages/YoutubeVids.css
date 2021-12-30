@@ -1,0 +1,71 @@
+.youtubeCont {
+    margin-top: 140px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: calc(100vh -140px);
+    min-height: 300px;
+    text-align: center;
+}
+.vlogLbl {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: 'Prata', serif;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 50px;
+}
+iframe {
+    width: 600px;
+    height: 400px;
+    margin: 10px 0;
+}
+
+.default-nav {
+    position: absolute;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.default-nav:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.default-nav:nth-of-type(1) {
+    background-color: rgba(0, 0, 0, 0.1);
+    left: 50%;
+    top: 50%;
+    transform: translate(-800%, -50%);
+
+}
+
+.default-nav:nth-of-type(2) {
+    background-color: rgba(0, 0, 0, 0.1);
+    left: 50%;
+    top: 50%;
+    transform: translate(700%, -50%);
+}
+
+
+.vlogsForm {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    iframe {
+        width: 90%;
+        height: 400px;
+    }
+    .vlogLbl {
+        margin: 20px auto;
+        font-size: 1rem;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 0 20px;
+    }
+}
+

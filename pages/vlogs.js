@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import { Icon } from '@iconify/react'
-import YouTube from 'react-youtube'
 import Navbar from '../components/Navbar'
+import YoutubeVids from '../components/YoutubeVids'
 
 export default function Vlogs() {
     return (
@@ -14,6 +11,7 @@ export default function Vlogs() {
           <link rel="icon" href="/shanLogo.png" />
         </Head>
         <Navbar/>
+        <YoutubeVids/>
   
       </div>
     )

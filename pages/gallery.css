@@ -1,0 +1,32 @@
+.gallerySectionCont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px 0 120px 0;
+} 
+.galleryTitle { 
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: 'Prata', serif;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .gallerySectionCont {
+        padding: 80px 0 80px 0;
+    } 
+    .galleryTitle { 
+        margin: 20px auto;
+        font-size: 1rem;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 0 20px;
+    }
+}

@@ -103,6 +103,7 @@
         height: 400px;
         justify-self: center;
         align-self: center;
+        padding-top: 100%;
     }
 }
 

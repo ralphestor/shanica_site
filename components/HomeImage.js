@@ -15,9 +15,9 @@ export default function HomeImage() {
         <figure className='homeCardCont'>
             <div className='unset-img'>
                 <div className="slide-container">
-                    <Fade duration={3000} transitionDuration={500}>
+                    <Fade duration={3000} transitionDuration={500} arrows={false}>
                     <div className="each-fade">
-                        <div>
+                        <div className='homeImgCont'>
                         <Image
                             src={fadeImages[0]}
                             alt="Shanica Cabading"

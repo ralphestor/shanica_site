@@ -14,22 +14,26 @@ export default function AboutArticles() {
       <main className='aboutArticlesCont'>
           <article className='aboutArticle'>
             <div className='aboutImage'>
-              <Image
-                  src={aboutImages[0]}
-                  alt="Shanica Cabading"
-                  layout='fill'
-                  objectFit='cover'
-                  objectPosition='center'
-                  className='aboutCardImage'
-              />
+              <div className='aboutFrame'>
+                <Image
+                    src={aboutImages[0]}
+                    alt="Shanica Cabading"
+                    layout='fill'
+                    objectFit='cover'
+                    objectPosition='center'
+                    className='aboutCardImage'
+                />
+              </div>
+
             </div>
             <div className='aboutText'>
-              <label className='aboutTitle'>Intro</label>
-              <p className='aboutPar'>Reprehenderit sit consequat laboris laborum eu ipsum fugiat nostrud ea dolore ut pariatur eu. Ut ipsum ad fugiat reprehenderit eu tempor dolore excepteur reprehenderit consequat ea mollit nostrud duis. Non eu et minim consequat aute. Cupidatat voluptate culpa nisi ex consectetur eiusmod consequat enim elit consequat sit. Deserunt labore amet cupidatat eu et ipsum nulla. Irure ut laboris nisi labore duis velit fugiat enim dolore.</p>
+              <label className='aboutTitle'>Hello</label>
+              <p className='aboutPar'>Hi Shan! Merry Christmas sa atin! Sorry ito lang kaya ko mabigay ngayon. Sorry din kung hindi ko pa matapos ngayon. Marami pa ako dapat ayusin. Sana nagustuhan mo ang design ko haha. Pag natapos ko na ito, pwede mo na iedit ang lahat ng content sa website. Sana maging happy ka na jan and positive lang always. Nandito lang ako always. I love you Shan. I miss you so much.</p>
             </div>
           </article>
           <article className='aboutArticle'>
             <div className='aboutImage revImage'>
+              <div className='aboutFrame'>
               <Image
                     src={aboutImages[1]}
                     alt="Shanica Cabading"
@@ -38,26 +42,29 @@ export default function AboutArticles() {
                     objectPosition='center'
                     className='aboutCardImage'
               />
+              </div>
             </div>
             <div className='aboutText revText'>
-              <label className='aboutTitle'>Profession</label>
-              <p className='aboutPar'>Reprehenderit sit consequat laboris laborum eu ipsum fugiat nostrud ea dolore ut pariatur eu. Ut ipsum ad fugiat reprehenderit eu tempor dolore excepteur reprehenderit consequat ea mollit nostrud duis. Non eu et minim consequat aute. Cupidatat voluptate culpa nisi ex consectetur eiusmod consequat enim elit consequat sit. Deserunt labore amet cupidatat eu et ipsum nulla. Irure ut laboris nisi labore duis velit fugiat enim dolore.</p>
+              <label className='aboutTitle'>Thank you</label>
+              <p className='aboutPar'>Thank you for existing in my life. Thank you sa pagiging patient sa akin. Alam ko na minsan disappointing ang mga actions ko. Thank you kasi nandito ka always para sa akin. Kahit wala ka physically, always ko ma feel na kasama parin kita. </p>
             </div>
           </article>
           <article className='aboutArticle'>
             <div className='aboutImage'>
-              <Image
+              <div className='aboutFrame'>  
+                  <Image
                     src={aboutImages[2]}
                     alt="Shanica Cabading"
                     layout='fill'
                     objectFit='cover'
                     objectPosition='center'
                     className='aboutCardImage'
-              />
+                  />
+              </div>
             </div>
             <div className='aboutText'>
-              <label className='aboutTitle'>Lifestyle</label>
-              <p className='aboutPar'>Reprehenderit sit consequat laboris laborum eu ipsum fugiat nostrud ea dolore ut pariatur eu. Ut ipsum ad fugiat reprehenderit eu tempor dolore excepteur reprehenderit consequat ea mollit nostrud duis. Non eu et minim consequat aute. Cupidatat voluptate culpa nisi ex consectetur eiusmod consequat enim elit consequat sit. Deserunt labore amet cupidatat eu et ipsum nulla. Irure ut laboris nisi labore duis velit fugiat enim dolore.</p>
+              <label className='aboutTitle'>Wish</label>
+              <p className='aboutPar'>Ang wish ko para sayo is ma achieve na natin ang goals natin. okay lang kung slow ang progress basta naga progress tayo. Sana mas ma bless ka ng more opportunities sa life. Opportunity to grow, to learn, and to have fun in life. Alam ko kaya mo jud ma achieve yan lahat Shan and mabilis lang yan mag dating sa life mo. Merry Christmas! I love you.</p>
             </div>
           </article>
       </main>
