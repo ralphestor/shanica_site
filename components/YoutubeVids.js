@@ -37,7 +37,7 @@ function YoutubeVids() {
 
     const allVids = ids.slice(0).reverse().map( id => {
         return(
-            <div className="each-slide">
+            <div key={id} className="each-slide">
                 <YouTube key={id} videoId={id} opts={opts}/>
             </div>
         )
